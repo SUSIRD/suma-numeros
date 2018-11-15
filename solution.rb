@@ -3,7 +3,7 @@ require 'sinatra'
 get '/' do
   @cuenta = params[:item]
   @cuenta = 0 if @cuenta == nil
-  erb :eje5
+  erb :solution
 end
 
 get '/cuenta' do
